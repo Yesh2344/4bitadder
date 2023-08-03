@@ -1,0 +1,163 @@
+\doxysection{FULLADDER Class Reference}
+\hypertarget{class_f_u_l_l_a_d_d_e_r}{}\label{class_f_u_l_l_a_d_d_e_r}\index{FULLADDER@{FULLADDER}}
+
+
+Represents a full adder circuit.  
+
+
+
+
+{\ttfamily \#include $<$Full\+Adder.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a438301c57931759edd76ef1fda21e594}{FULLADDER}} (const unsigned short int id)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_aad76a125fb9359c85d187dcb423f68c3}{set\+Input}} (const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_aebf3fe957790938f98afe833f42326f7}{in1}}, const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a8ec483733e600e98c10e146bac2d94de}{in2}}, const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_abb382dbe79b9b4f6a318a2a60e11d87f}{carry\+In}})
+\begin{DoxyCompactList}\small\item\em Sets the input values for the full adder circuit. \end{DoxyCompactList}\item 
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_a875af575956310dd46de3d1b6964edb1}\label{class_f_u_l_l_a_d_d_e_r_a875af575956310dd46de3d1b6964edb1} 
+void {\bfseries update} ()
+\begin{DoxyCompactList}\small\item\em Updates the full adder circuit to calculate the sum and carry-\/out. \end{DoxyCompactList}\item 
+const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a9f8aa3d21a9a2544ee48ad86409477ea}{sum}} () const
+\begin{DoxyCompactList}\small\item\em Get the sum output of the full adder circuit. \end{DoxyCompactList}\item 
+const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_ab2a1bd885746ede6506c39f37764c1c1}{carry\+Out}} () const
+\begin{DoxyCompactList}\small\item\em Get the carry-\/out of the full adder circuit. \end{DoxyCompactList}\item 
+const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_aebf3fe957790938f98afe833f42326f7}{in1}} () const
+\begin{DoxyCompactList}\small\item\em Get the first input bit of the full adder circuit. \end{DoxyCompactList}\item 
+const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a8ec483733e600e98c10e146bac2d94de}{in2}} () const
+\begin{DoxyCompactList}\small\item\em Get the second input bit of the full adder circuit. \end{DoxyCompactList}\item 
+const unsigned short int \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_abb382dbe79b9b4f6a318a2a60e11d87f}{carry\+In}} () const
+\begin{DoxyCompactList}\small\item\em Get the carry-\/in bit of the full adder circuit. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a2896eca9f80a9329cdc2da2f8101ee36}{repr}} ()
+\begin{DoxyCompactList}\small\item\em Get a string representation of the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} instance. \end{DoxyCompactList}\item 
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_a57e334f177a442936d3e025d6ca2b0a6}\label{class_f_u_l_l_a_d_d_e_r_a57e334f177a442936d3e025d6ca2b0a6} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+FULLADDER} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a full adder circuit. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_a438301c57931759edd76ef1fda21e594}\label{class_f_u_l_l_a_d_d_e_r_a438301c57931759edd76ef1fda21e594} 
+\index{FULLADDER@{FULLADDER}!FULLADDER@{FULLADDER}}
+\index{FULLADDER@{FULLADDER}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{FULLADDER()}{FULLADDER()}}
+{\footnotesize\ttfamily FULLADDER\+::\+FULLADDER (\begin{DoxyParamCaption}\item[{const unsigned short int}]{id }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The identifier of the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} instance. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_abb382dbe79b9b4f6a318a2a60e11d87f}\label{class_f_u_l_l_a_d_d_e_r_abb382dbe79b9b4f6a318a2a60e11d87f} 
+\index{FULLADDER@{FULLADDER}!carryIn@{carryIn}}
+\index{carryIn@{carryIn}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{carryIn()}{carryIn()}}
+{\footnotesize\ttfamily const unsigned short int FULLADDER\+::carry\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the carry-\/in bit of the full adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The carry-\/in bit. 
+\end{DoxyReturn}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_ab2a1bd885746ede6506c39f37764c1c1}\label{class_f_u_l_l_a_d_d_e_r_ab2a1bd885746ede6506c39f37764c1c1} 
+\index{FULLADDER@{FULLADDER}!carryOut@{carryOut}}
+\index{carryOut@{carryOut}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{carryOut()}{carryOut()}}
+{\footnotesize\ttfamily const unsigned short int FULLADDER\+::carry\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the carry-\/out of the full adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The carry-\/out bit. 
+\end{DoxyReturn}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_aebf3fe957790938f98afe833f42326f7}\label{class_f_u_l_l_a_d_d_e_r_aebf3fe957790938f98afe833f42326f7} 
+\index{FULLADDER@{FULLADDER}!in1@{in1}}
+\index{in1@{in1}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{in1()}{in1()}}
+{\footnotesize\ttfamily const unsigned short int FULLADDER\+::in1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the first input bit of the full adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The first input bit. 
+\end{DoxyReturn}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_a8ec483733e600e98c10e146bac2d94de}\label{class_f_u_l_l_a_d_d_e_r_a8ec483733e600e98c10e146bac2d94de} 
+\index{FULLADDER@{FULLADDER}!in2@{in2}}
+\index{in2@{in2}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{in2()}{in2()}}
+{\footnotesize\ttfamily const unsigned short int FULLADDER\+::in2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the second input bit of the full adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The second input bit. 
+\end{DoxyReturn}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_a2896eca9f80a9329cdc2da2f8101ee36}\label{class_f_u_l_l_a_d_d_e_r_a2896eca9f80a9329cdc2da2f8101ee36} 
+\index{FULLADDER@{FULLADDER}!repr@{repr}}
+\index{repr@{repr}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{repr()}{repr()}}
+{\footnotesize\ttfamily std\+::string FULLADDER\+::repr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get a string representation of the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} instance. 
+
+\begin{DoxyReturn}{Returns}
+A string representing the \doxylink{class_f_u_l_l_a_d_d_e_r}{FULLADDER} instance. 
+\end{DoxyReturn}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_aad76a125fb9359c85d187dcb423f68c3}\label{class_f_u_l_l_a_d_d_e_r_aad76a125fb9359c85d187dcb423f68c3} 
+\index{FULLADDER@{FULLADDER}!setInput@{setInput}}
+\index{setInput@{setInput}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{setInput()}{setInput()}}
+{\footnotesize\ttfamily void FULLADDER\+::set\+Input (\begin{DoxyParamCaption}\item[{const unsigned short int}]{in1,  }\item[{const unsigned short int}]{in2,  }\item[{const unsigned short int}]{carry\+In }\end{DoxyParamCaption})}
+
+
+
+Sets the input values for the full adder circuit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in1} & The first input bit. \\
+\hline
+{\em in2} & The second input bit. \\
+\hline
+{\em carry\+In} & The carry-\/in bit. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_f_u_l_l_a_d_d_e_r_a9f8aa3d21a9a2544ee48ad86409477ea}\label{class_f_u_l_l_a_d_d_e_r_a9f8aa3d21a9a2544ee48ad86409477ea} 
+\index{FULLADDER@{FULLADDER}!sum@{sum}}
+\index{sum@{sum}!FULLADDER@{FULLADDER}}
+\doxysubsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily const unsigned short int FULLADDER\+::sum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the sum output of the full adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The sum output bit. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Four\+Bit\+Adder/intern/Full\+Adder.\+h\item 
+Four\+Bit\+Adder/intern/Full\+Adder.\+cpp\end{DoxyCompactItemize}

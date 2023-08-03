@@ -1,0 +1,146 @@
+\doxysection{HALFADDER Class Reference}
+\hypertarget{class_h_a_l_f_a_d_d_e_r}{}\label{class_h_a_l_f_a_d_d_e_r}\index{HALFADDER@{HALFADDER}}
+
+
+Represents a half adder circuit.  
+
+
+
+
+{\ttfamily \#include $<$Half\+Adder.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_ad18fdac5df12cd7e04df6375a54bedfa}{HALFADDER}} (const unsigned short int id)
+\begin{DoxyCompactList}\small\item\em Constructor for the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_ad08eacca9bc633d216a7237429299dff}{set\+Input}} (const unsigned short int \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a6035fc9054b7b7dde257fabb5dbf8a43}{in1}}, const unsigned short int \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a65bda5acec4b248b1ddc3b757a9ac029}{in2}})
+\begin{DoxyCompactList}\small\item\em Sets the input values for the half adder circuit. \end{DoxyCompactList}\item 
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_a0d4dd4562d0dc9bcb2629b3469743598}\label{class_h_a_l_f_a_d_d_e_r_a0d4dd4562d0dc9bcb2629b3469743598} 
+void {\bfseries update} ()
+\begin{DoxyCompactList}\small\item\em Updates the half adder circuit to calculate the sum and carry. \end{DoxyCompactList}\item 
+unsigned short int \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a694a207d78455aa3d8ff733150adf8e2}{sum}} () const
+\begin{DoxyCompactList}\small\item\em Get the sum output of the half adder circuit. \end{DoxyCompactList}\item 
+unsigned short int \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a30d0a3f418dd1d690de95c1faaa9af81}{carry}} () const
+\begin{DoxyCompactList}\small\item\em Get the carry output of the half adder circuit. \end{DoxyCompactList}\item 
+unsigned short int \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a6035fc9054b7b7dde257fabb5dbf8a43}{in1}} () const
+\begin{DoxyCompactList}\small\item\em Get the first input bit of the half adder circuit. \end{DoxyCompactList}\item 
+unsigned short int \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a65bda5acec4b248b1ddc3b757a9ac029}{in2}} () const
+\begin{DoxyCompactList}\small\item\em Get the second input bit of the half adder circuit. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a335b8bce09da001f185405a2e9f564c8}{repr}} ()
+\begin{DoxyCompactList}\small\item\em Get a string representation of the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} instance. \end{DoxyCompactList}\item 
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_ae4259bd3b43b1aded319471803e6fd2c}\label{class_h_a_l_f_a_d_d_e_r_ae4259bd3b43b1aded319471803e6fd2c} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+HALFADDER} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a half adder circuit. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_ad18fdac5df12cd7e04df6375a54bedfa}\label{class_h_a_l_f_a_d_d_e_r_ad18fdac5df12cd7e04df6375a54bedfa} 
+\index{HALFADDER@{HALFADDER}!HALFADDER@{HALFADDER}}
+\index{HALFADDER@{HALFADDER}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{HALFADDER()}{HALFADDER()}}
+{\footnotesize\ttfamily HALFADDER\+::\+HALFADDER (\begin{DoxyParamCaption}\item[{const unsigned short int}]{id }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The identifier of the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} instance. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_a30d0a3f418dd1d690de95c1faaa9af81}\label{class_h_a_l_f_a_d_d_e_r_a30d0a3f418dd1d690de95c1faaa9af81} 
+\index{HALFADDER@{HALFADDER}!carry@{carry}}
+\index{carry@{carry}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{carry()}{carry()}}
+{\footnotesize\ttfamily unsigned short int HALFADDER\+::carry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the carry output of the half adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The carry output bit. 
+\end{DoxyReturn}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_a6035fc9054b7b7dde257fabb5dbf8a43}\label{class_h_a_l_f_a_d_d_e_r_a6035fc9054b7b7dde257fabb5dbf8a43} 
+\index{HALFADDER@{HALFADDER}!in1@{in1}}
+\index{in1@{in1}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{in1()}{in1()}}
+{\footnotesize\ttfamily unsigned short int HALFADDER\+::in1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the first input bit of the half adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The first input bit. 
+\end{DoxyReturn}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_a65bda5acec4b248b1ddc3b757a9ac029}\label{class_h_a_l_f_a_d_d_e_r_a65bda5acec4b248b1ddc3b757a9ac029} 
+\index{HALFADDER@{HALFADDER}!in2@{in2}}
+\index{in2@{in2}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{in2()}{in2()}}
+{\footnotesize\ttfamily unsigned short int HALFADDER\+::in2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the second input bit of the half adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The second input bit. 
+\end{DoxyReturn}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_a335b8bce09da001f185405a2e9f564c8}\label{class_h_a_l_f_a_d_d_e_r_a335b8bce09da001f185405a2e9f564c8} 
+\index{HALFADDER@{HALFADDER}!repr@{repr}}
+\index{repr@{repr}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{repr()}{repr()}}
+{\footnotesize\ttfamily std\+::string HALFADDER\+::repr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get a string representation of the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} instance. 
+
+\begin{DoxyReturn}{Returns}
+A string representing the \doxylink{class_h_a_l_f_a_d_d_e_r}{HALFADDER} instance. 
+\end{DoxyReturn}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_ad08eacca9bc633d216a7237429299dff}\label{class_h_a_l_f_a_d_d_e_r_ad08eacca9bc633d216a7237429299dff} 
+\index{HALFADDER@{HALFADDER}!setInput@{setInput}}
+\index{setInput@{setInput}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{setInput()}{setInput()}}
+{\footnotesize\ttfamily void HALFADDER\+::set\+Input (\begin{DoxyParamCaption}\item[{const unsigned short int}]{in1,  }\item[{const unsigned short int}]{in2 }\end{DoxyParamCaption})}
+
+
+
+Sets the input values for the half adder circuit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em in1} & The first input bit. \\
+\hline
+{\em in2} & The second input bit. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_h_a_l_f_a_d_d_e_r_a694a207d78455aa3d8ff733150adf8e2}\label{class_h_a_l_f_a_d_d_e_r_a694a207d78455aa3d8ff733150adf8e2} 
+\index{HALFADDER@{HALFADDER}!sum@{sum}}
+\index{sum@{sum}!HALFADDER@{HALFADDER}}
+\doxysubsubsection{\texorpdfstring{sum()}{sum()}}
+{\footnotesize\ttfamily unsigned short int HALFADDER\+::sum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the sum output of the half adder circuit. 
+
+\begin{DoxyReturn}{Returns}
+The sum output bit. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Four\+Bit\+Adder/intern/Half\+Adder.\+h\item 
+Four\+Bit\+Adder/intern/Half\+Adder.\+cpp\end{DoxyCompactItemize}

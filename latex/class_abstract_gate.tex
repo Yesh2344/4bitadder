@@ -1,0 +1,190 @@
+\doxysection{Abstract\+Gate Class Reference}
+\hypertarget{class_abstract_gate}{}\label{class_abstract_gate}\index{AbstractGate@{AbstractGate}}
+
+
+{\ttfamily \#include $<$Abstract\+Gate.\+h$>$}
+
+Inheritance diagram for Abstract\+Gate\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_abstract_gate}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_abstract_gate_a0c5c8596f588d1e4f4fb75c591e21bc5}{Abstract\+Gate}} ()
+\item 
+virtual \mbox{\hyperlink{class_abstract_gate_ab64fa2e19900e50dbd7f444e20288ae2}{\texorpdfstring{$\sim$}{\string~}\+Abstract\+Gate}} ()
+\item 
+const unsigned short int \mbox{\hyperlink{class_abstract_gate_ae608e9e36e35ec5422bb1c36266d4a35}{out}} () const
+\item 
+const unsigned short int \mbox{\hyperlink{class_abstract_gate_a9803c7b2e99b0e6ebc4e1ffcab22f132}{in1}} () const
+\item 
+const unsigned short int \mbox{\hyperlink{class_abstract_gate_aca96696a86440f0e3d84f0e78c97b68a}{in2}} () const
+\item 
+void \mbox{\hyperlink{class_abstract_gate_a01925510e74cf3646e230c7bde23da5a}{set\+\_\+in1}} (const unsigned short int)
+\item 
+void \mbox{\hyperlink{class_abstract_gate_a798b7f9712206b5ef3ee8ab9732d07a1}{set\+\_\+in2}} (const unsigned short int)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_abstract_gate_a092008beeac8e9c9f8fccb5720784300}\label{class_abstract_gate_a092008beeac8e9c9f8fccb5720784300} 
+virtual void {\bfseries update} ()=0
+\item 
+virtual std\+::string \mbox{\hyperlink{class_abstract_gate_a36e644775aec02cb54715d0cf020db72}{repr}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned short int \mbox{\hyperlink{class_abstract_gate_a9874fa389d0a7f917c712c65a2a98dd9}{m\+\_\+usi\+In1}}
+\item 
+unsigned short int \mbox{\hyperlink{class_abstract_gate_a1aa803df35289549ed9f7807a0eae714}{m\+\_\+usi\+In2}}
+\item 
+unsigned short int \mbox{\hyperlink{class_abstract_gate_a69b4525042eca0f9cdb891c42ebe5843}{m\+\_\+usi\+Out}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{_abstract_gate_8h_source}{Abstract\+Gate.\+h}
+
+Created on\+: Jun 14, 2020 Author\+: brad 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_abstract_gate_a0c5c8596f588d1e4f4fb75c591e21bc5}\label{class_abstract_gate_a0c5c8596f588d1e4f4fb75c591e21bc5} 
+\index{AbstractGate@{AbstractGate}!AbstractGate@{AbstractGate}}
+\index{AbstractGate@{AbstractGate}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{AbstractGate()}{AbstractGate()}}
+{\footnotesize\ttfamily Abstract\+Gate\+::\+Abstract\+Gate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor for \doxylink{class_abstract_gate}{Abstract\+Gate}. Does not allow for parameters, uses initializers for pins. \Hypertarget{class_abstract_gate_ab64fa2e19900e50dbd7f444e20288ae2}\label{class_abstract_gate_ab64fa2e19900e50dbd7f444e20288ae2} 
+\index{AbstractGate@{AbstractGate}!````~AbstractGate@{\texorpdfstring{$\sim$}{\string~}AbstractGate}}
+\index{````~AbstractGate@{\texorpdfstring{$\sim$}{\string~}AbstractGate}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}AbstractGate()}{\string~AbstractGate()}}
+{\footnotesize\ttfamily virtual Abstract\+Gate\+::\texorpdfstring{$\sim$}{\string~}\+Abstract\+Gate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Virtual destructor for \doxylink{class_abstract_gate}{Abstract\+Gate}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_abstract_gate_a9803c7b2e99b0e6ebc4e1ffcab22f132}\label{class_abstract_gate_a9803c7b2e99b0e6ebc4e1ffcab22f132} 
+\index{AbstractGate@{AbstractGate}!in1@{in1}}
+\index{in1@{in1}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{in1()}{in1()}}
+{\footnotesize\ttfamily const unsigned short int Abstract\+Gate\+::in1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Function name, description here. 
+\begin{DoxyParams}{Parameters}
+{\em type} & comments. \\
+\hline
+{\em type} & comments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+type comments. 
+\end{DoxyReturn}
+\Hypertarget{class_abstract_gate_aca96696a86440f0e3d84f0e78c97b68a}\label{class_abstract_gate_aca96696a86440f0e3d84f0e78c97b68a} 
+\index{AbstractGate@{AbstractGate}!in2@{in2}}
+\index{in2@{in2}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{in2()}{in2()}}
+{\footnotesize\ttfamily const unsigned short int Abstract\+Gate\+::in2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Function name, description here. 
+\begin{DoxyParams}{Parameters}
+{\em type} & comments. \\
+\hline
+{\em type} & comments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+type comments. 
+\end{DoxyReturn}
+\Hypertarget{class_abstract_gate_ae608e9e36e35ec5422bb1c36266d4a35}\label{class_abstract_gate_ae608e9e36e35ec5422bb1c36266d4a35} 
+\index{AbstractGate@{AbstractGate}!out@{out}}
+\index{out@{out}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{out()}{out()}}
+{\footnotesize\ttfamily const unsigned short int Abstract\+Gate\+::out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Access pin out. 
+\begin{DoxyParams}{Parameters}
+{\em void} & no comments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the pin value. 
+\end{DoxyReturn}
+\Hypertarget{class_abstract_gate_a36e644775aec02cb54715d0cf020db72}\label{class_abstract_gate_a36e644775aec02cb54715d0cf020db72} 
+\index{AbstractGate@{AbstractGate}!repr@{repr}}
+\index{repr@{repr}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{repr()}{repr()}}
+{\footnotesize\ttfamily std\+::string Abstract\+Gate\+::repr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Function name, description here. 
+\begin{DoxyParams}{Parameters}
+{\em type} & comments. \\
+\hline
+{\em type} & comments. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+type comments. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_a_n_d_a2484fd1c13a1b399747f6685845c09cc}{AND}}, \mbox{\hyperlink{class_n_a_n_d_a7337633d9d731152c38c6697257f80e2}{NAND}}, and \mbox{\hyperlink{class_o_r_ac49f7dcebbc858ba806e4d3cd31664c1}{OR}}.
+
+\Hypertarget{class_abstract_gate_a01925510e74cf3646e230c7bde23da5a}\label{class_abstract_gate_a01925510e74cf3646e230c7bde23da5a} 
+\index{AbstractGate@{AbstractGate}!set\_in1@{set\_in1}}
+\index{set\_in1@{set\_in1}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{set\_in1()}{set\_in1()}}
+{\footnotesize\ttfamily void Abstract\+Gate\+::set\+\_\+in1 (\begin{DoxyParamCaption}\item[{const unsigned short int}]{val }\end{DoxyParamCaption})}
+
+Sets pin \#1. 
+\begin{DoxyParams}{Parameters}
+{\em unsigned} & int pin \#1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None. 
+\end{DoxyReturn}
+\Hypertarget{class_abstract_gate_a798b7f9712206b5ef3ee8ab9732d07a1}\label{class_abstract_gate_a798b7f9712206b5ef3ee8ab9732d07a1} 
+\index{AbstractGate@{AbstractGate}!set\_in2@{set\_in2}}
+\index{set\_in2@{set\_in2}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{set\_in2()}{set\_in2()}}
+{\footnotesize\ttfamily void Abstract\+Gate\+::set\+\_\+in2 (\begin{DoxyParamCaption}\item[{const unsigned short int}]{val }\end{DoxyParamCaption})}
+
+Sets pin \#2. 
+\begin{DoxyParams}{Parameters}
+{\em unsigned} & int pin \#1 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+None. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_abstract_gate_a9874fa389d0a7f917c712c65a2a98dd9}\label{class_abstract_gate_a9874fa389d0a7f917c712c65a2a98dd9} 
+\index{AbstractGate@{AbstractGate}!m\_usiIn1@{m\_usiIn1}}
+\index{m\_usiIn1@{m\_usiIn1}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{m\_usiIn1}{m\_usiIn1}}
+{\footnotesize\ttfamily unsigned short int Abstract\+Gate\+::m\+\_\+usi\+In1\hspace{0.3cm}{\ttfamily [protected]}}
+
+Hungarian notation\+: \href{http://web.mst.edu/~cpp/common/hungarian.html}{\texttt{ http\+://web.\+mst.\+edu/\texorpdfstring{$\sim$}{\string~}cpp/common/hungarian.\+html}} \href{https://stackoverflow.com/questions/841075/best-c-code-formatter-beautifier}{\texttt{ https\+://stackoverflow.\+com/questions/841075/best-\/c-\/code-\/formatter-\/beautifier}} \href{http://astyle.sourceforge.net/astyle.html\#_Quick_Start}{\texttt{ http\+://astyle.\+sourceforge.\+net/astyle.\+html\#\+\_\+\+Quick\+\_\+\+Start}} input pin one \Hypertarget{class_abstract_gate_a1aa803df35289549ed9f7807a0eae714}\label{class_abstract_gate_a1aa803df35289549ed9f7807a0eae714} 
+\index{AbstractGate@{AbstractGate}!m\_usiIn2@{m\_usiIn2}}
+\index{m\_usiIn2@{m\_usiIn2}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{m\_usiIn2}{m\_usiIn2}}
+{\footnotesize\ttfamily unsigned short int Abstract\+Gate\+::m\+\_\+usi\+In2\hspace{0.3cm}{\ttfamily [protected]}}
+
+input pin two \Hypertarget{class_abstract_gate_a69b4525042eca0f9cdb891c42ebe5843}\label{class_abstract_gate_a69b4525042eca0f9cdb891c42ebe5843} 
+\index{AbstractGate@{AbstractGate}!m\_usiOut@{m\_usiOut}}
+\index{m\_usiOut@{m\_usiOut}!AbstractGate@{AbstractGate}}
+\doxysubsubsection{\texorpdfstring{m\_usiOut}{m\_usiOut}}
+{\footnotesize\ttfamily unsigned short int Abstract\+Gate\+::m\+\_\+usi\+Out\hspace{0.3cm}{\ttfamily [protected]}}
+
+output pin three 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Four\+Bit\+Adder/intern/Abstract\+Gate.\+h\item 
+Four\+Bit\+Adder/intern/Abstract\+Gate.\+cpp\end{DoxyCompactItemize}

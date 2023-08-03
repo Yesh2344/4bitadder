@@ -1,0 +1,45 @@
+\doxysection{Half\+Adder.\+h}
+\hypertarget{_half_adder_8h_source}{}\label{_half_adder_8h_source}\index{FourBitAdder/intern/HalfAdder.h@{FourBitAdder/intern/HalfAdder.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ HALFADDER\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ HALFADDER\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}LogicGates.h"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r}{HALFADDER}}}
+\DoxyCodeLine{00012\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r}{HALFADDER}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_ad08eacca9bc633d216a7237429299dff}{setInput}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a6035fc9054b7b7dde257fabb5dbf8a43}{in1}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a65bda5acec4b248b1ddc3b757a9ac029}{in2}});}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a0d4dd4562d0dc9bcb2629b3469743598}{update}}();}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a694a207d78455aa3d8ff733150adf8e2}{sum}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a30d0a3f418dd1d690de95c1faaa9af81}{carry}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a6035fc9054b7b7dde257fabb5dbf8a43}{in1}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a65bda5acec4b248b1ddc3b757a9ac029}{in2}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00060\ \ \ \ \ std::string\ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_a335b8bce09da001f185405a2e9f564c8}{repr}}();}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00065\ \ \ \ \ \mbox{\hyperlink{class_h_a_l_f_a_d_d_e_r_ae4259bd3b43b1aded319471803e6fd2c}{\string~HALFADDER}}();}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00067\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00068\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate}{AbstractGate}}*\ andGate;\ }
+\DoxyCodeLine{00069\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate}{AbstractGate}}*\ nandGate;\ }
+\DoxyCodeLine{00070\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate}{AbstractGate}}*\ orGate;\ }
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_usiIn1;\ }
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_usiIn2;\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_sum;\ }
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_carry;\ }
+\DoxyCodeLine{00077\ \ \ \ \ std::string\ m\_strID;\ }
+\DoxyCodeLine{00078\ \};}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HALFADDER\_H}}
+
+\end{DoxyCode}

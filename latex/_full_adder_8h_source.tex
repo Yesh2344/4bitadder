@@ -1,0 +1,48 @@
+\doxysection{Full\+Adder.\+h}
+\hypertarget{_full_adder_8h_source}{}\label{_full_adder_8h_source}\index{FourBitAdder/intern/FullAdder.h@{FourBitAdder/intern/FullAdder.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ FULLADDER\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ FULLADDER\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}LogicGates.h"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r}{FULLADDER}}}
+\DoxyCodeLine{00012\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r}{FULLADDER}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_aad76a125fb9359c85d187dcb423f68c3}{setInput}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_aebf3fe957790938f98afe833f42326f7}{in1}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a8ec483733e600e98c10e146bac2d94de}{in2}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_abb382dbe79b9b4f6a318a2a60e11d87f}{carryIn}});}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a875af575956310dd46de3d1b6964edb1}{update}}();}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a9f8aa3d21a9a2544ee48ad86409477ea}{sum}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_ab2a1bd885746ede6506c39f37764c1c1}{carryOut}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_aebf3fe957790938f98afe833f42326f7}{in1}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a8ec483733e600e98c10e146bac2d94de}{in2}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_abb382dbe79b9b4f6a318a2a60e11d87f}{carryIn}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00062\ }
+\DoxyCodeLine{00067\ \ \ \ \ std::string\ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a2896eca9f80a9329cdc2da2f8101ee36}{repr}}();}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{class_f_u_l_l_a_d_d_e_r_a57e334f177a442936d3e025d6ca2b0a6}{\string~FULLADDER}}();}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00074\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00075\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate}{AbstractGate}}*\ andGate;\ }
+\DoxyCodeLine{00076\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate}{AbstractGate}}*\ nandGate;\ }
+\DoxyCodeLine{00077\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate}{AbstractGate}}*\ orGate;\ }
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_usiIn1;\ }
+\DoxyCodeLine{00080\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_usiIn2;\ }
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_carryIn;\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_sum;\ }
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ m\_carryOut;\ }
+\DoxyCodeLine{00085\ \ \ \ \ std::string\ m\_strID;\ }
+\DoxyCodeLine{00086\ \};}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00088\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ FULLADDER\_H}}
+
+\end{DoxyCode}

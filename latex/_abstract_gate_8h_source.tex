@@ -1,0 +1,41 @@
+\doxysection{Abstract\+Gate.\+h}
+\hypertarget{_abstract_gate_8h_source}{}\label{_abstract_gate_8h_source}\index{FourBitAdder/intern/AbstractGate.h@{FourBitAdder/intern/AbstractGate.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_ABSTRACTGATE\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ \_ABSTRACTGATE\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_abstract_gate}{AbstractGate}}}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_abstract_gate_a0c5c8596f588d1e4f4fb75c591e21bc5}{AbstractGate}}()\ :\ \mbox{\hyperlink{class_abstract_gate_a9874fa389d0a7f917c712c65a2a98dd9}{m\_usiIn1}}(0),\ \mbox{\hyperlink{class_abstract_gate_a1aa803df35289549ed9f7807a0eae714}{m\_usiIn2}}(0),\ \mbox{\hyperlink{class_abstract_gate_a69b4525042eca0f9cdb891c42ebe5843}{m\_usiOut}}(0)\ \{\}}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_abstract_gate_ab64fa2e19900e50dbd7f444e20288ae2}{\string~AbstractGate}}()\ \{\}}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{comment}{/*}}
+\DoxyCodeLine{00028\ \textcolor{comment}{\ \ \ \ \ *\ Accessors}}
+\DoxyCodeLine{00029\ \textcolor{comment}{\ \ \ \ \ */}}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_abstract_gate_ae608e9e36e35ec5422bb1c36266d4a35}{out}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_abstract_gate_a9803c7b2e99b0e6ebc4e1ffcab22f132}{in1}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_abstract_gate_aca96696a86440f0e3d84f0e78c97b68a}{in2}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{comment}{/*}}
+\DoxyCodeLine{00035\ \textcolor{comment}{\ \ \ \ \ *\ Setters}}
+\DoxyCodeLine{00036\ \textcolor{comment}{\ \ \ \ \ */}}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_abstract_gate_a01925510e74cf3646e230c7bde23da5a}{set\_in1}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int});}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_abstract_gate_a798b7f9712206b5ef3ee8ab9732d07a1}{set\_in2}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int});}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_abstract_gate_a9874fa389d0a7f917c712c65a2a98dd9}{m\_usiIn1}};\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_abstract_gate_a1aa803df35289549ed9f7807a0eae714}{m\_usiIn2}};\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_abstract_gate_a69b4525042eca0f9cdb891c42ebe5843}{m\_usiOut}};\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ update()\ =\ 0;}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keyword}{virtual}\ std::string\ \mbox{\hyperlink{class_abstract_gate_a36e644775aec02cb54715d0cf020db72}{repr}}();}
+\DoxyCodeLine{00051\ \};}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ \_ABSTRACTGATE\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}
